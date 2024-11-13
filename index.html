@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeni Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>Zeni</header>
+
+<nav>
+    <a href="#" onclick="showTab('home')">Главная</a>
+    <a href="#" onclick="showTab('blog')">Блог</a>
+    <a href="#" onclick="showTab('about')">О нас </a>
+    <a href="#" onclick="showTab('work')">Работы</a>
+    <a href="#" onclick="showTab('contact')">Контакты</a>
+</nav>
+
+<div class="container">
+    <div id="home" class="tab-content active">
+        <h2>Добро пожаловать на сайт </h2>
+        <p>Свежие новости.</p>
+        <div class="featured-posts">
+            <div class="post">
+                <h3>Post 1</h3>
+                <p>Description of post 1.</p>
+            </div>
+            <div class="post">
+                <h3>Post 2</h3>
+                <p>Description of post 2.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="blog" class="tab-content">
+        <h2>Blog</h2>
+        <p>Here you can read our latest posts.</p>
+    </div>
+
+    <div id="about" class="tab-content">
+        <h2>About Us</h2>
+        <p>Learn more about our company.</p>
+    </div>
+
+    <div id="work" class="tab-content">
+        <h2>Our Work</h2>
+        <p>See our portfolio and recent projects.</p>
+    </div>
+
+    <div id="contact" class="tab-content">
+        <h2>Наши контакты </h2>
+        <p>По рф  +78657884567</p>
+        <p>По рф2 +71225678909</p> 
+        
+        <img src="PHOTOS/Telephone .jpg" alt=”яхта на море”>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
